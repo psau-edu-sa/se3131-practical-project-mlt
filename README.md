@@ -1,6 +1,8 @@
 ## Team members
 Taif Ali Alghamdi, 442051065
+
 Lamia Shaleh Alonaydhil, 442051339
+
 Manar Shaleh Alonaydhil, 442050540
 
 ## Formal specification for a traffic lights using petri net
