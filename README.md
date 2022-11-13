@@ -1,14 +1,21 @@
 # Formal specification for a traffic lights using petri net
 Using Petri net, we gonna formalize the following system:
+
 We have a traffic intersection that regulates the flow of four different lanes
 Only certain signals can be green at a specific time and the rest are red
 
 The signs should work in an orderly manner according to the numbering shown in the image, which can be described as follows
+
 The two signals in lanes 1 can be green at the same time, and the rest of the signals are red
+
 The two lights in lanes 2 can be green at the same time, and the rest of the lights are red
+
 The signal in lane 3 can be green and the rest of the lights are red
+
 The signal in lane 4 can be green and the rest of the lights are red
+
 Signals should work in the order above
+
 The signals in lane 5 allow cars to reverse traffic when it does not interfere with another signal
 
 
@@ -23,7 +30,7 @@ the tool we used to simulate the syste
 (https://apo.adrian-jagusch.de/)
 
 
-## open file
+
 
 
 
