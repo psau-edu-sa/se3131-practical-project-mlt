@@ -1,4 +1,9 @@
-# Formal specification for a traffic lights using petri net
+## Team members
+Taif Ali Alghamdi, 442051065
+Lamia Shaleh Alonaydhil, 442051339
+Manar Shaleh Alonaydhil, 442050540
+
+## Formal specification for a traffic lights using petri net
 Using Petri net, we gonna formalize the following system:
 
 We have a traffic intersection that regulates the flow of four different lanes
@@ -28,7 +33,7 @@ The system must be designed so that the traffic lights must operate in an orderl
 
 ## Tools
 
-the tool we used to simulate the syste
+The tool we used to simulate the syste
 (https://apo.adrian-jagusch.de/)
 
 
