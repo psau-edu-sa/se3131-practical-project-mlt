@@ -18,6 +18,8 @@ Signals should work in the order above
 
 The signals in lane 5 allow cars to reverse traffic when it does not interfere with another signal
 
+## The goal of the system
+The system must be designed so that the traffic lights must operate in an orderly manner according to the numbering.
 
 ## Simulation for the system
 
