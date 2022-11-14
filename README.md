@@ -48,8 +48,4 @@ The tool we used to simulate the system
 ![qqqqqqqqqqqqqqq](https://user-images.githubusercontent.com/98769412/201526379-e8561116-75ae-4349-8475-9011ccd3b844.png)
 
 ## Video showing how the system works
-
-
-
-https://user-images.githubusercontent.com/118121316/201648883-2d1ff04c-1c3b-48f5-a872-16ff63844543.mp4
-
+https://user-images.githubusercontent.com/118121316/201649173-d0a18892-e1d5-4bbc-bfb7-94adfb02a44b.mp4
