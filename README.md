@@ -35,7 +35,7 @@ The system must be designed so that the traffic lights must operate in an orderl
 
 ## Tools
 
-The tool we used to simulate the syste
+The tool we used to simulate the system 
 (https://apo.adrian-jagusch.de/)
 
 
