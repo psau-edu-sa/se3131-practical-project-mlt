@@ -1,0 +1,49 @@
+## The model in the tool
+
+[InternetShortcut]
+URL=https://apo.adrian-jagusch.de/#!/Sample%20Net
+
+## The code of the model 
+
+.name "Sample Net"
+.type PN
+
+.places
+4_RED
+1_RED
+2_RED
+3_RED
+1_GREEN
+2_GREEN
+3_GREEN
+4_GREEN
+CC4
+CC3
+CC2
+CC1
+5C
+5B
+5A
+5D
+
+.transitions
+GR1
+RG1
+RG2
+GR2
+RG3
+GR3
+RG4
+GR4
+
+.flows
+GR1: {2*1_GREEN, 1*5B, 1*5C} -> {2*1_RED, 2*CC2}
+RG1: {2*1_RED, 2*CC1} -> {2*1_GREEN, 1*5B, 1*5C}
+RG2: {2*2_RED, 2*CC2} -> {2*2_GREEN, 1*5A, 1*5D}
+GR2: {2*2_GREEN, 1*5A, 1*5D} -> {2*2_RED, 2*CC3}
+RG3: {1*3_RED, 2*CC3} -> {1*3_GREEN, 1*5B, 1*5A}
+GR3: {1*3_GREEN, 1*5B, 1*5A} -> {1*3_RED, 2*CC4}
+RG4: {1*4_RED, 2*CC4} -> {1*4_GREEN, 1*5D, 1*5C}
+GR4: {1*4_GREEN, 1*5D, 1*5C} -> {1*4_RED, 2*CC1}
+
+.initial_marking {1*4_RED, 2*1_RED, 2*2_RED, 1*3_RED, 2*CC1}
